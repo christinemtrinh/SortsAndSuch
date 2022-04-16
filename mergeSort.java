@@ -5,7 +5,31 @@ Note that to test the *function*, "mergeSort" was actually spelled "mergSort"
 public class mergeSort {
     public static void main(String args[]) {
         //set up array for testing
-        int[] myList = new int[]{8, 2, 3, 1, 9, 23, 21, 17, 31, 99, 3};
+        int[] myList = new int[]{1, 3, 9, 10, 5,
+            4, 4, 5, 6, 6, 
+            7, 7, 8, 14, 14, 
+            15, 16, 17, 17, 17,
+            19, 20, 20, 21, 25,
+            26, 8, 11, 14, 14,
+            26, 26,	28, 28, 30, 
+            31, 33,  34, 23, 25,
+            34, 34, 35, 37, 33,
+            37, 37, 38, 39, 39,
+            43, 43, 44, 45, 46,
+            51, 47, 47, 47, 50,
+            57, 58, 52, 54, 55,
+            60, 61, 45, 57, 57,
+            61, 61, 66, 67, 67, 
+            68, 68,	69, 65, 69,
+            69, 76, 69, 69, 45,
+            71, 71, 71, 72, 72, 
+            72, 73, 74, 67, 68,
+            75, 78, 80, 81, 81,
+            83, 83, 83, 83, 83,
+            83, 88, 86, 86, 76,
+            88, 90, 91, 95, 96,
+            97, 97, 91, 92, 95,
+            98, 100, 100, 100, 96};
 
         //print list before sorting 
         for (int i=0; i<myList.length; i++)
