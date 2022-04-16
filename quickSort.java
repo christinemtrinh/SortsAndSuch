@@ -1,6 +1,7 @@
 /* 
 This program implements quickSort (for lists 15 elements or more)
 Otherwise, it may just be more efficient to do insertionSort 
+Note that to test the *function*, "quickSort" was actually spelled "quikSort"
 */
 
 public class quickSort {
@@ -17,7 +18,7 @@ public class quickSort {
 
         //sort and keep time
         long startT = System.nanoTime();
-        quickSort(myList); 
+        quikSort(myList); 
         long endT = System.nanoTime(); 
         
         //print list after sorting 
@@ -30,12 +31,12 @@ public class quickSort {
         return;
     }
     //driver for quick sort
-    public static void quickSort(int[] arr) {
-        quickSort(arr, 0, arr.length-1);
+    public static void quikSort(int[] arr) {
+        quikSort(arr, 0, arr.length-1);
     }
 
     //actual quick sort method
-    private static void quickSort(int[] arr, int left, int right) {
+    private static void quikSort(int[] arr, int left, int right) {
         //check list size before doing quickSort
         if (left + CUTOFF <= right) {
             int pivot = median3(arr, left, right);
@@ -55,8 +56,8 @@ public class quickSort {
             swap(arr, i, right - 1);
         
             //sort subarrays
-            quickSort(arr, left, i-1);
-            quickSort(arr, i+1, right);
+            quikSort(arr, left, i-1);
+            quikSort(arr, i+1, right);
         }
         //list has less than 15 elements
         else
