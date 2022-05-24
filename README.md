@@ -1,2 +1,2 @@
 # SortsAndSuch
-implementation of quickSort and mergeSort whilst familiarizing myself with using GitHub
+implementation of quickSort and mergeSort while familiarizing myself with using GitHub
