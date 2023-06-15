@@ -1,2 +1,2 @@
 # SortsAndSuch
-implementation of quickSort and mergeSort while familiarizing myself with using GitHub
+Implementing quick sort and merge sort. I also compared their performance with ability to handle different size inputs.
